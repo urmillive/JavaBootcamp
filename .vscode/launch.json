@@ -1,28 +1,14 @@
 {
-    "configurations": [
-			{
-				"type": "java",
-				"name": "isPrime",
-				"request": "launch",
-				"mainClass": "isPrime",
-				"projectName": "Java-Bootcamp_cb7e753b"
-			},
-			{
-				"type": "java",
-				"name": "Helloworld",
-				"request": "launch",
-				"mainClass": "Helloworld",
-				"projectName": "Java-Bootcamp_cb7e753b"
-			},
-			{
-				"type": "node",
-				"request": "launch",
-				"name": "Debug Current File",
-				"program": "${file}",
-				"skipFiles": ["<node_internals>/**"],
-				"sourceMaps": true,
-				"outFiles": ["${workspaceFolder}/dist/**/*.js"],
-				"preLaunchTask": "build"
-			}
-		]
+	"configurations": [
+		{
+			"type": "node",
+			"request": "launch",
+			"name": "Debug Current File",
+			"program": "${file}",
+			"skipFiles": ["<node_internals>/**"],
+			"sourceMaps": true,
+			"outFiles": ["${workspaceFolder}/dist/**/*.js"],
+			"preLaunchTask": "build"
+		}
+	]
 }
