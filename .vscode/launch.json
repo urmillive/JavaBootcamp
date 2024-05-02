@@ -1,6 +1,20 @@
 {
 	"configurations": [
 		{
+			"type": "java",
+			"name": "StudentRunner",
+			"request": "launch",
+			"mainClass": "Student.StudentRunner",
+			"projectName": "Java-Bootcamp_cb7e753b"
+		},
+		{
+			"type": "java",
+			"name": "Student",
+			"request": "launch",
+			"mainClass": "Student.Student",
+			"projectName": "Java-Bootcamp_cb7e753b"
+		},
+		{
 			"type": "node",
 			"request": "launch",
 			"name": "Debug Current File",
