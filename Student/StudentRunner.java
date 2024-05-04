@@ -2,6 +2,7 @@ package Student;
 
 public class StudentRunner {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Student s = new Student(1, "Ram");
+        System.out.println(s);
     }
 }
