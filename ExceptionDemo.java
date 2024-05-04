@@ -1,5 +1,5 @@
 
-public class 411 {
+public class ExceptionDemo {
     public static void main(String[] args) {
         int i = 0;
         int j = 10;
